@@ -1,7 +1,7 @@
 export const links = {
   email: "phanhavi136@gmail.com",
   github: "https://github.com/phhvi",
-  linkedin: "https://linkedin.com/in/viphanha",
+  linkedin: "https://www.linkedin.com/in/viphanha",
   spotifyProfile: "https://open.spotify.com/user/31duswxllhh3k37ixh2rlffkhdh4",
   cv: "/Vi_Phan_CV.pdf",
 };
