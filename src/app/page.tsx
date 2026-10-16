@@ -47,8 +47,9 @@ export default function Home() {
               <Words text="and I'm still figuring out the rest." />
             </h1>
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted">
-              Software engineer with a degree in English, three years of React and TypeScript, and a soft spot for
-              dream pop, long bike rides and products that make people feel something.
+              From Da Nang, now in Ho Chi Minh City. I studied English, fell into building software and stayed —
+              three years of shipping web apps, and a soft spot for dream pop, long bike rides and products that make
+              people feel something.
             </p>
             <div className="mt-8 flex flex-wrap gap-3 text-sm">
               <a href="#work" className="rounded-full bg-ink px-5 py-2.5 text-paper transition hover:bg-burgundy">See my work</a>
@@ -105,9 +106,9 @@ export default function Home() {
           <Reveal>
             <p className="max-w-2xl text-lg leading-relaxed text-ink/80">
               I cycle — by the beach, up the mountain, and one day an Ironman with my best friend before I turn 35. I listen to
-              dream pop and soft rock, and I&apos;m slowly becoming a drummer. I journal, I declutter, I cook (mom would be surprised),
-              I watch a lot of films, and I spend more time than I should in cafés watching people go by. Da Nang is home;
-              somewhere further away is next.
+              dream pop and pop-punk, and I&apos;m slowly learning the drums. I journal, I declutter, I cook, I watch a lot of
+              films, and I spend more time than I should in cafés watching people go by. Da Nang is home; the plan is more
+              languages and more places.
             </p>
           </Reveal>
         </Section>
