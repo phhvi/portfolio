@@ -68,7 +68,7 @@ export const experience = [
     org: "National Australia Bank — StarCamp",
     role: "Software Engineering Intern",
     when: "Jul – Oct 2026",
-    note: "Micro-frontend banking product; GraphQL BFF; de-facto BA; led team code reviews.",
+    note: "Micro-frontend banking product; GraphQL BFF; de-facto BA; led the team's front-end code reviews.",
   },
   {
     org: "National Australia Bank — WeCamp",
