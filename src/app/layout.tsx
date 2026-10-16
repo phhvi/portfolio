@@ -9,10 +9,20 @@ const fraunces = Fraunces({
   style: ["normal", "italic"],
 });
 
+const description =
+  "Software engineer from Da Nang. Builds for the web, cycles, journals, and is still figuring things out.";
+
 export const metadata: Metadata = {
+  metadataBase: new URL("https://portfolio-seven-eosin-nu7rwsostq.vercel.app"),
   title: "Vi Phan — software engineer, Da Nang",
-  description:
-    "Software engineer from Da Nang. Builds for the web, cycles, journals, and is still figuring things out.",
+  description,
+  openGraph: {
+    title: "Vi Phan",
+    description,
+    url: "/",
+    siteName: "Vi Phan",
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
