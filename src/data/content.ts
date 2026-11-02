@@ -3,7 +3,7 @@ export const links = {
   github: "https://github.com/phhvi",
   linkedin: "https://www.linkedin.com/in/viphanha",
   spotifyProfile: "https://open.spotify.com/user/31duswxllhh3k37ixh2rlffkhdh4",
-  cv: "/Vi_Phan_CV.pdf",
+  cv: "/Vi_Phan_Software_Engineer_CV.pdf",
 };
 
 export const now = [
@@ -56,7 +56,8 @@ export const projects: Project[] = [
     title: "Job board",
     kind: "Learning · course project",
     status: "Done",
-    blurb: "A client + server job board built while following a GraphQL course, to see how the two halves talk to each other.",
+    blurb:
+      "A client + server job board built while following a GraphQL course, to see how the two halves talk to each other.",
     stack: ["React", "Node.js", "GraphQL"],
     href: "https://github.com/phhvi/job-board",
     tone: "paper",
@@ -95,4 +96,3 @@ export const experience = [
     note: "Salesforce (LWC, Aura, Apex) for US-government clients: a county property-appraisal system and a state disability-compensation portal.",
   },
 ];
-
