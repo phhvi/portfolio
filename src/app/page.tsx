@@ -159,7 +159,7 @@ export default function Home() {
                         rel="noreferrer"
                         className="text-burgundy underline-offset-4 hover:underline"
                       >
-                        GitHub →
+                        {p.isLive ? "Check it out →" : "GitHub →"}
                       </a>
                     )}
                   </div>
@@ -198,12 +198,13 @@ export default function Home() {
           >
             <Reveal>
               <p className="max-w-2xl text-lg leading-relaxed text-ink/80">
-                I cycle — by the beach, up the mountain, and one day an Ironman
-                with my best friend before I turn 35. I listen to dream pop and
-                pop-punk, and I&apos;m slowly learning the drums. I journal, I
-                declutter, I cook, I watch a lot of films, and I spend more time
-                than I should in cafés watching people go by. Da Nang is home;
-                the plan is more languages and more places.
+                I spend my downtime on tactile projects like pottery and
+                knitting, or cooking for myself - another way to unwind and be
+                creative at the same time. When I&apos;m out, I love wandering
+                the city, cafe hopping, and people-watching, alongside listening
+                to music and watching movies. Lately, I&apos;ve also been
+                training in Muay Thai; it&apos;s been great for learning how to
+                stay focused, fast, and deliberate in everything I do.
               </p>
             </Reveal>
           </Section>

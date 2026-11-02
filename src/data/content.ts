@@ -8,10 +8,10 @@ export const links = {
 
 export const now = [
   "Looking for my next team in Ho Chi Minh City, fresh out of NAB's StarCamp programme",
-  "Building Rainbow Shine — a private map of memories for two",
+  "Building Rainbow Shine - a private map of memories for two",
   "Learning Java, and going deeper on NestJS and PostgreSQL",
-  "Cycling by the beach whenever I'm back in Da Nang",
-  "On the nightstand: The Midnight Library and The Design of Everyday Things",
+  "On the nightstand: The Design of Everyday Things, Philosophy of the home: Domestic Space and Happiness",
+  "Navigating life as an twentyish something",
 ];
 
 export const playlists = [
@@ -29,6 +29,7 @@ export type Project = {
   blurb: string;
   stack: string[];
   href?: string;
+  isLive?: boolean;
   tone: "pink" | "paper";
 };
 
@@ -38,7 +39,7 @@ export const projects: Project[] = [
     kind: "Full-stack · side project",
     status: "In progress",
     blurb:
-      "A private space for two people to pin the places they've been — the date, the where, what happened, a few photos. The map comes first; everything else hangs off it.",
+      "A private space for two people to pin the places they've been - the date, the where, what happened, a few photos. The map comes first; everything else hangs off it.",
     stack: ["Next.js", "NestJS", "PostgreSQL", "Docker", "Leaflet"],
     href: "https://github.com/phhvi/rainbow-shine-client",
     tone: "pink",
@@ -46,11 +47,13 @@ export const projects: Project[] = [
   {
     title: "Modeling portfolio",
     kind: "Creative · side quest",
-    status: "Half-finished",
+    status: "Done",
     blurb:
-      "A quieter corner for the other side of me — a photographic portfolio for modeling work, built as a small static site. Not online yet.",
+      "A quieter corner for the other side of me - a photographic portfolio for modeling work, built as a small static site.",
     stack: ["Next.js", "Tailwind"],
     tone: "paper",
+    href: "https://model-portfolio-rho.vercel.app/",
+    isLive: true,
   },
   {
     title: "Job board",
